@@ -46,6 +46,7 @@ window.addEventListener('load', function init() {
     }
     function calculate(nums) {
         //nums are the values getting passed into result.value(input)
+        //defining what nums, the parameter, is.
         nums = result.value;
         nums = eval(nums);
         result.value = nums;
